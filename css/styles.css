@@ -20,6 +20,11 @@ body{
 }
 /*-----------------------------------------------------------------*/
 
+.icon{
+  width: 10%;
+}
+
+
 footer {
   text-align: center;
   padding: 10px;
@@ -48,10 +53,9 @@ footer {
     padding: 0px 0px 0px 0px;
 }
   .rectangle {
-    background-color: steelblue; /* Fill color */
-    border: 2px solid black;     /* Border */
-    padding-top: 20px;            /* Padding */
-    padding-bottom: 20px;  
+    background-color:  #d7d2cc;
+    border: 2px solid #d7d2cc;
+    margin: 20px               /* Margin */
   }
 
  .subheaders {
