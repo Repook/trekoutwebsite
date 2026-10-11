@@ -42,8 +42,17 @@ footer {
 }
 
 .logo{
-  float: left;
-  width: 20%;
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    line-height: 0;
+}
+
+.logoimg{
+  display: block;
+  width: 100%;
+  height: auto;
+  content: url("/assets/logo.png");
 }
 
 .nav-container{
@@ -132,7 +141,13 @@ li :hover {
     flex-direction: column;
     align-items: center;
   }
-
+  .nav-container {
+    flex-direction: column;
+  }
+  .logoimg {
+    content: url("/assets/logo-icon.png");
+    width: 100%;
+    }
   .imgandtextdiv {
     width: 80%;
     margin: 10px 0;
