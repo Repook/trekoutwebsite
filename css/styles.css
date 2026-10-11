@@ -20,6 +20,16 @@ body{
 }
 /*-----------------------------------------------------------------*/
 
+.basedivider {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imgandtextdiv{
+  width: 50%;
+  margin:5%
+}
+
 .icon{
   width: 10%;
 }
@@ -31,8 +41,9 @@ footer {
   display: block;
 }
 
-.logo-container{
-  display: inline-block;
+.logo{
+  float: left;
+  width: 20%;
 }
 
 .nav-container{
