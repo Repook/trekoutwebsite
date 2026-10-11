@@ -36,7 +36,15 @@
 
 
     <div class="rectangle"></div>
-
+    <div class="thank-you-container">
+        <button class="thank-you-btn" onclick="toggleMessage()">
+                    Thank you!     
+        </button>      
+    <div id="thankYouMessage" class="thank-you-message">
+        <p>Contact the founder of the website at one of the links above. Any inquiries about the website             can be routed through the founder. Kindly report any faults or problems within the website to the founder.</p>
+        <p><strong>Thank you! Please enjoy this wonderful country!</strong></p>
+        <script>function toggleMessage() {const message =document.getElementById("thankYouMessage");if (message.style.display === "block") {message.style.display = "none";} else {message.style.display = "block";}}</script>
+    </div>
     <!--footer-->
 <footer>
 	<p class = "footer">Author: Cooper<br>

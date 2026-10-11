@@ -154,3 +154,37 @@ li :hover {
   }
 
 }
+
+/*thank you screen stuff*/
+.thank-you-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 25px auto;
+    text-align: center;
+}
+ 
+.thank-you-btn {
+    background-color: #4B643C;
+    color: white;
+    padding: 12px 28px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+.thank-you-btn:hover {
+    background-color: black;
+}
+ 
+.thank-you-message {
+    display: none;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f2f2f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    line-height: 1.6;
+    text-align: center;
+}
