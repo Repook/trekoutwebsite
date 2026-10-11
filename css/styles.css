@@ -61,6 +61,13 @@ footer {
     font-weight: 750;
     padding: 0px 0px 0px 0px;
 }
+ .lesserheaders {
+    display: flex;
+    font-family: 'Montserrat';
+    color: #272727;
+    font-weight: 750;
+    padding: 0px 0px 0px 0px;
+}
   .rectangle {
     background-color:  #d7d2cc;
     border: 2px solid #d7d2cc;
