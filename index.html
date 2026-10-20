@@ -11,23 +11,36 @@
     <title>Home</title>
 </head>
 <body>
-
-
     <div class="nav-container">
-    <a href="index.html" class="logo">
-        <img class="logoimg" src="assets/logo.png" alt="Logo">
-    </a>
+        <a href="index.html" class="logo">
+            <img class="logoimg" src="assets/logo.png" alt="Logo">
+        </a>
 
-    <!--nav bar-->
-	<nav>
-		<ul>   
-			<li><a href="about.html">About</a></li>
-			<li><a href="history.html">History</a></li>
-			<li><a href="culture.html">Culture</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>	
-	</nav>
-      <input type="text" placeholder="Search..">
+        <!--nav bar-->
+        <nav>
+            <ul>   
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>	
+        </nav>
+    
+    <!-- Search form sends the users search to search.html -->
+    <form action="search.html" method="GET" class="search-form">
+
+        <!-- Input where the user types their search query -->
+        <input
+            type="text"
+            name="q"
+            placeholder="Search TrekOut..."
+            required
+        >
+
+        <!-- Button that submits the search form -->
+        <button type="submit">Search</button>
+
+    </form>
     </div>
 
 

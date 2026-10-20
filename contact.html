@@ -25,24 +25,34 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>	
 	</nav>
-      <input type="text" placeholder="Search..">
+    <form action="search.html" method="GET" class="search-form">
+        <input
+                type="text"
+                name="q"
+                placeholder="Search TrekOut..."
+                required
+        >
+        <button type="submit">Search</button>
+     </form>
     </div>
 
 
     <h1 class="headers">Contact</h1>
     <p class="subheaders">Address: 123 Address Road <br>
                           Phone Number: 041 244 5678 <br>
-                          Email: customerservice@trekout.co.nz</p>
+                          Email: customerservice@trekout.co.nz
+    </p>
 
 
     <div class="rectangle"></div>
     <div class="thank-you-container">
         <button class="thank-you-btn" onclick="toggleMessage()">
                     Thank you!     
-        </button>      
+        </button>
+    <!--thank you message-->
     <div id="thankYouMessage" class="thank-you-message">
         <p>Contact the founder of the website at one of the links above. Any inquiries about the website             can be routed through the founder. Kindly report any faults or problems within the website to the founder.</p>
-        <p><strong>Thank you! Please enjoy this wonderful country!</strong></p>
+        <p><strong>Please enjoy this wonderful country!</strong></p>
         <script>function toggleMessage() {const message =document.getElementById("thankYouMessage");if (message.style.display === "block") {message.style.display = "none";} else {message.style.display = "block";}}</script>
     </div>
     <!--footer-->

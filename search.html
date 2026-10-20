@@ -1,0 +1,29 @@
+s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search | TrekOut</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/search.js" defer></script>
+</head>
+<body>
+
+    <h1>Search TrekOut</h1>
+
+    <form action="search.html" method="GET">
+        <input
+            type="text"
+            name="q"
+            id="searchInput"
+            placeholder="Search TrekOut..."
+            required
+        >
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="searchMessage"></p>
+    <div id="searchResults"></div>
+
+</body>
+</html>
